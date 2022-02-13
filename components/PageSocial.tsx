@@ -11,6 +11,7 @@ interface SocialLink {
   icon: React.ReactNode
   href?: string
 }
+
 const socialLinks: SocialLink[] = [
   config.twitter && {
     name: 'twitter',
@@ -68,4 +69,3 @@ export const PageSocial: React.FC = () => {
     </div>
   )
 }
-
