@@ -39,7 +39,7 @@ export const Footer: React.FC<{
           </a>
         </div>
       ) : null}
-<!----
+/*
       <div className={styles.social}>
         {config.twitter && (
           <a
@@ -77,7 +77,7 @@ export const Footer: React.FC<{
           </a>
         )}
       </div>
------>
+*/
     </footer>
   )
 }
